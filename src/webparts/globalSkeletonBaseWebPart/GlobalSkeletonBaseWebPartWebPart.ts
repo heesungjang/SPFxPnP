@@ -39,6 +39,7 @@ export default class GlobalSkeletonBaseWebPartWebPart extends BaseClientSideWebP
           this.properties.description
         )}</strong></div>
         <p>Show Staff Number: ${this.properties.showStaffNumber}</p>
+        <p>Name: ${escape(this.context.pageContext.user.displayName)}</p>
       </div>
       <div>
         <h3>Welcome to SharePoint Framework!</h3>
