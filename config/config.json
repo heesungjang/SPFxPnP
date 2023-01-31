@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "global-skeleton-base-web-part-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/globalSkeletonBaseWebPart/GlobalSkeletonBaseWebPartWebPart.js",
+          "manifest": "./src/webparts/globalSkeletonBaseWebPart/GlobalSkeletonBaseWebPartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "GlobalSkeletonBaseWebPartWebPartStrings": "lib/webparts/globalSkeletonBaseWebPart/loc/{locale}.js"
+  }
+}
